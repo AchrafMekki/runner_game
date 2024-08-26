@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "pygame >= 2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runner_game"
+version = "0.1"
+authors = [
+   { name="Achraf Ben Mekki", email="achrafbenmekki@gmail.com" },
+]
+license = {file = "LICENSE"}
+description = "A simple 2D game"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+   "Development Status :: 3 - Alpha",
+   "Intended Audience :: Education",
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+]
+keywords = ["game", "pygame", "runner"]
+# dependencies = ["tkinter >= 1.23", "pygame >= "2.0"]
+
+#[project.optional-dependencies]
+#dev = ["pytest", "isort", "pytest_cov", "ipython"]
+
+[project.urls]
+#"Homepage": ""
+#"documentation" = ""
+#"source" = ""
+#"download" = ""
+#"tracker" = ""

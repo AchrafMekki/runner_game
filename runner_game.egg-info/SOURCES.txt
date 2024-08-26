@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+runner_game/__init__.py
+runner_game/game.py
+runner_game.egg-info/PKG-INFO
+runner_game.egg-info/SOURCES.txt
+runner_game.egg-info/dependency_links.txt
+runner_game.egg-info/top_level.txt

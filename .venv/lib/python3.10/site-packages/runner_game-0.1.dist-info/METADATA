@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: runner_game
+Version: 0.1
+Summary: A simple 2D game
+Author-email: Achraf Ben Mekki <achrafbenmekki@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Achraf Ben Mekki
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: game,pygame,runner
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# The Runner 
+
+
+- >`The Runner` is the name of the game I'm   <ins> `still`  </ins> working on, is a simple 2D game built using Pygame. please feel free to try out my initial version. 
+
+## Description:
+
+In this game, players control a character who must navigate through obstacles while collecting points.
+
+## Installation
+
+To install and play the game, it's recommended to use a virtual environment to avoid conflicts with other Python projects. Here's how to set up and install the game:
+
+1. Ensure you have Python 3.9 or higher installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
+
+2. Create a new virtual environment for your project:
+
+    ```
+    python3 -m venv .venv
+    ```
+
+   Replace `.venv` with your desired name for the virtual environment.
+
+3. Activate the virtual environment:
+
+      ```
+      source .venv/bin/activate
+      ```
+4. install `pygame` if you haven't already:
+
+5. Install the game directly from PyPI using pip:
+
+    ```
+    pip install runner-game
+    ```
+
+6. import the package:
+
+    ```
+    import runner_game
+    from runner_game import game
+    ```
+7. run the game:
+
+    ```
+    game.main()
+    ```
+## How to Play:
+
+ - > To jump and restart the game, users can only utilize  <ins>`the space tab` </ins>.
+
+
+## How To Win:
+
+- > Jump Jump Jump ! till you get your highest score 🥇
+
+                          
+                          
+                            
+                            
+                            
+                             🔥 ENJOY THE RUN 🔥
