@@ -30,18 +30,19 @@ To install and play the game, it's recommended to use a virtual environment to a
 4. install `pygame` if you haven't already:
 
 5. Install the game directly from PyPI using pip:
+    `https://test.pypi.org/project/runner-game/`
 
-    ```
+   ```
     pip install runner-game
     ```
 
-6. import the package:
+7. import the package:
 
     ```
     import runner_game
     from runner_game import game
     ```
-7. run the game:
+8. run the game:
 
     ```
     game.main()
